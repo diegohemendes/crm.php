@@ -1,0 +1,66 @@
+body.dark-theme {
+    background: #0d0d0d;
+    color: #e2e2e2;
+    font-family: "Inter", sans-serif;
+}
+
+/* NAV */
+.premium-nav {
+    background: #0f0f0f !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+.neon-text {
+    color: #4cc9f0;
+    text-shadow: 0 0 8px #3a86ff;
+}
+
+.nav-link {
+    color: #bbb !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #4cc9f0 !important;
+}
+
+/* CARDS E TABELAS */
+.card, .table {
+    background: #161616 !important;
+    color: #e8e8e8;
+    border: 1px solid #333 !important;
+}
+
+.table thead {
+    background: #111;
+    color: #4cc9f0;
+}
+
+/* INPUTS */
+.form-control, .form-select {
+    background: #1b1b1b;
+    border: 1px solid #333;
+    color: #eee;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #4cc9f0;
+    box-shadow: 0 0 6px #3a86ff;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: #3a86ff;
+    border-color: #3a86ff;
+}
+.btn-primary:hover {
+    background: #2658ad;
+}
+
+.btn-success {
+    background: #00b894;
+    border-color: #00b894;
+}
+.btn-danger {
+    background: #d62828;
+}
